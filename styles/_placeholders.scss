@@ -1,0 +1,8 @@
+@use 'variables' as *;
+
+%hover-dark {
+	&:hover {
+		color: $color-yel;
+		text-decoration: overline;
+	}
+}

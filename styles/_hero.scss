@@ -1,0 +1,44 @@
+@use 'variables' as v;
+@use 'mixins' as *;
+@use 'placeholders';
+
+.page {
+	&__hero {
+		background-color: v.$color-bg;
+		padding-block-start: 3rem;
+		padding-block-end: min(7.5rem, 7vw);
+	}
+}
+.hero {
+	&__container {
+	}
+	&__wrappage {
+		@include d-flex(space-between, center);
+	}
+	&__left-side {
+	}
+	&__title {
+	}
+	&__text {
+	}
+	&__sources {
+	}
+	&__right-side {
+		@include d-flex(center, center);
+	}
+}
+.sources-hero {
+	&__image {
+	}
+}
+.right-side-hero {
+	&__image img {
+		width: 100%;
+	}
+	&__image {
+		&_first {
+		}
+		&_second {
+		}
+	}
+}
