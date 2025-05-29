@@ -14,6 +14,4 @@
 }
 .logos {
 	@include d-flex(center, center, row, 7rem, 1.5rem, wrap);
-	&__logo {
-	}
 }
